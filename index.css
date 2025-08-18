@@ -1,0 +1,13 @@
+.division {
+    width: 100dvw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 2px solid red;
+}
+
+
+.bold {
+    font-weight: bold !important;
+}
