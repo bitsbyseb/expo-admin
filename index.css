@@ -1,13 +1,8 @@
-.division {
-    width: 100dvw;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    border: 2px solid red;
+p {
+    display: none;
 }
 
 
 .bold {
-    font-weight: bold !important;
+    font-weight: bold;
 }

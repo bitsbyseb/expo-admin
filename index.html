@@ -11,8 +11,17 @@
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/black.css">
 
+	<!-- lite youtube styles -->
+	<link rel="stylesheet" href="./lite-youtube-embed/src/lite-yt-embed.css">
+
+	<!-- index page styles -->
+	<link rel="stylesheet" href="index.css">
+
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<!-- lite youtube script -->
+	 <script src="lite-youtube-embed/src/lite-yt-embed.js"></script>
 </head>
 
 <body>
@@ -39,7 +48,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-					<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+					<div
+						style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px; display: flex; justify-content: center; align-items: center;">
 						<h2>Concepto de la Escuela Clasica</h2>
 						<p>Conocida también como la escuela “operacional” o “del proceso administrativo”, esta corriente
 							considera que en todos los hechos administrativos, por diferentes que sean, pueden
@@ -51,33 +61,23 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 				</div>
 			</section>
 			<!-- --- -->
-			<section style="font-size: 25px; text-align: start;">
+			<section style="font-size: 35px; text-align: start;">
 				<h2 style="text-align: center;">¿Que funciones?</h2>
 				<p>Por ende, la labor del administrador ha de ser la identificación de dichas funciones y su adecuación
 					a ciertos patrones ideales, para lo cual clasifica las funciones de la siguiente manera:</p>
 
-				<ul>
-					<li><span style="font-weight: bold !important;">Funciones técnicas:</span> que tienen que ver con la
-						dinámica de producción de
-						bienes.</li>
+				<ul style="display: flex; flex-direction: column; gap: 2rem;">
+					<li class="bold">Funciones técnicas.</li>
 
-					<li><span style="font-weight: bold !important;">Funciones comerciales:</span> que tienen que ver con
-						las operaciones de intercambio (compra, venta y cambio) de productos.</li>
+					<li class="bold">Funciones comerciales</li>
 
-					<li><span style="font-weight: bold !important;">Funciones financieras:</span> que tienen que ver con
-						la obtención y la aplicación de recursos financieros.</li>
+					<li class="bold">Funciones financieras.</li>
 
-					<li><span style="font-weight: bold !important;">Funciones contables:</span> que tienen que ver con
-						los inventarios, balances y estadísticas de funcionamiento del sistema productivo.
-					</li>
+					<li class="bold">Funciones contables.</li>
 
-					<li><span style="font-weight: bold !important;">Funciones de seguridad:</span> que tienen que ver
-						con la protección de los bienes y las personas para preservar su utilidad de cara al proceso
-						productivo.</li>
+					<li class="bold">Funciones de seguridad.</li>
 
-					<li><span style="font-weight: bold !important;">Funciones administrativas:</span> entendidas como
-						una mezcla de prever, organizar, coordinar y controlar, todo en manos de los administradores.
-					</li>
+					<li class="bold">Funciones administrativas.</li>
 
 				</ul>
 			</section>
@@ -89,7 +89,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-					<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+					<div
+						style="width: 50%; height: 100%; font-size: 40px; text-align: start; padding: 10px; display: flex; justify-content: center; align-items: center;">
 						<h2>Origenes</h2>
 						<p>El fundador de esta escuela fue el francés Henry Fayol (1841-1925), razón por la cual a
 							menudo se la
@@ -117,7 +118,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+						<div
+							style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px; display: grid; place-items: center;">
 							<h2>Frederick Taylor.</h2>
 							<p> Fue el padre de la administración científica. Propuso organizar el trabajo mediante la
 								aplicación de métodos científicos (como la mejora de los sistemas de producción, la
@@ -137,7 +139,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row-reverse;
     					gap: 1rem;">
-						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+						<div
+							style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;  display: grid; place-items: center;">
 							<h2>Henry Ford</h2>
 							<p>Fue el creador de la producción industrial en serie. Su objetivo fue generar una mayor
 								cantidad de bienes en el menor tiempo y a un costo reducido. Gracias a los aportes de
@@ -156,7 +159,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+						<div
+							style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;  display: grid; place-items: center;">
 							<h2>Frank B. Gilbreth</h2>
 							<p>Propuso una mejora para la organización científica a través del estudio del movimiento y
 								del
@@ -176,7 +180,8 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+						<div
+							style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;  display: grid; place-items: center;">
 							<h2>Henry Lawrence Gantt:</h2>
 							<p>Propuso un sistema llamado por su nombre, diagrama de Gantt, que consistía en una
 								herramienta
@@ -196,7 +201,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
     					display: flex;
     					flex-direction: row;
     					gap: 1rem;">
-						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;">
+						<div style="width: 50%; height: 100%; font-size: 34px; text-align: start; padding: 10px;  display: grid; place-items: center;">
 							<h2>Elton Mayo</h2>
 							<p>Propuso una mirada psicológica y sociológica del mundo industrial, que consistía en
 								enfatizar
@@ -211,13 +216,12 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 				</section>
 			</section>
 			<!-- --- -->
-			<section style="text-align: start;"
-				data-background-image="./public/revolucion_laboral.jpg">
+			<section style="text-align: start;" data-background-image="./public/revolucion_laboral.jpg">
 				<div style="width: 40rem; height:auto; background: #ADA996;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
- padding: 20px; border-radius: 10px; color: black; text-align: start; font-size: 28px; opacity: 0.8;">
+ padding: 20px; border-radius: 10px; color: black; text-align: start; font-size: 2.5rem; opacity: 0.8;">
 					<h2 style="color: black; text-align: center;">Criticas a la Escuela Clasica</h2>
 					<p>Algunas de las críticas a la teoría clásica son que carecía de experimentación y de comprobación
 						de
@@ -249,6 +253,13 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 						corriente precedente formulada por Taylor.</p>
 				</div>
 			</section>
+			<!-- --- -->
+			 <section>
+				<div style="width: 40rem; height: auto; position: absolute; display: flex; flex-direction: column; justify-content: center; right: 10rem;">
+					<h2>Video Informativo</h2>
+					<lite-youtube videoid="rT-pJLOcKK8"></lite-youtube>
+				</div>
+			 </section>
 		</div>
 	</div>
 
